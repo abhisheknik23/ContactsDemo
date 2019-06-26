@@ -21,6 +21,9 @@
 		77451B7722C3E20C00563A07 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77451B7622C3E20C00563A07 /* ContactsViewModel.swift */; };
 		77451B7822C3E20C00563A07 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77451B7622C3E20C00563A07 /* ContactsViewModel.swift */; };
 		77451B7922C3E20C00563A07 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77451B7622C3E20C00563A07 /* ContactsViewModel.swift */; };
+		77451B7C22C3F1D500563A07 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77451B7B22C3F1D500563A07 /* ContactDetailViewController.swift */; };
+		77451B7D22C3F1D500563A07 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77451B7B22C3F1D500563A07 /* ContactDetailViewController.swift */; };
+		77451B7E22C3F1D500563A07 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77451B7B22C3F1D500563A07 /* ContactDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,7 @@
 		77451B6122C3DBFF00563A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77451B7222C3E1E700563A07 /* ContactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsModel.swift; sourceTree = "<group>"; };
 		77451B7622C3E20C00563A07 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		77451B7B22C3F1D500563A07 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				77451B3E22C3DBFE00563A07 /* ViewController.swift */,
+				77451B7B22C3F1D500563A07 /* ContactDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -321,6 +326,7 @@
 				77451B7722C3E20C00563A07 /* ContactsViewModel.swift in Sources */,
 				77451B4522C3DBFE00563A07 /* ContactsDemoApp.xcdatamodeld in Sources */,
 				77451B7322C3E1E700563A07 /* ContactsModel.swift in Sources */,
+				77451B7C22C3F1D500563A07 /* ContactDetailViewController.swift in Sources */,
 				77451B3D22C3DBFE00563A07 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +337,7 @@
 			files = (
 				77451B7422C3E1E700563A07 /* ContactsModel.swift in Sources */,
 				77451B7822C3E20C00563A07 /* ContactsViewModel.swift in Sources */,
+				77451B7D22C3F1D500563A07 /* ContactDetailViewController.swift in Sources */,
 				77451B5522C3DBFF00563A07 /* ContactsDemoAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +348,7 @@
 			files = (
 				77451B7522C3E1E700563A07 /* ContactsModel.swift in Sources */,
 				77451B7922C3E20C00563A07 /* ContactsViewModel.swift in Sources */,
+				77451B7E22C3F1D500563A07 /* ContactDetailViewController.swift in Sources */,
 				77451B6022C3DBFF00563A07 /* ContactsDemoAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
