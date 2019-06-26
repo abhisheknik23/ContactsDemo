@@ -15,6 +15,12 @@
 		77451B4A22C3DBFF00563A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77451B4822C3DBFF00563A07 /* LaunchScreen.storyboard */; };
 		77451B5522C3DBFF00563A07 /* ContactsDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77451B5422C3DBFF00563A07 /* ContactsDemoAppTests.swift */; };
 		77451B6022C3DBFF00563A07 /* ContactsDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77451B5F22C3DBFF00563A07 /* ContactsDemoAppUITests.swift */; };
+		77451B7322C3E1E700563A07 /* ContactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77451B7222C3E1E700563A07 /* ContactsModel.swift */; };
+		77451B7422C3E1E700563A07 /* ContactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77451B7222C3E1E700563A07 /* ContactsModel.swift */; };
+		77451B7522C3E1E700563A07 /* ContactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77451B7222C3E1E700563A07 /* ContactsModel.swift */; };
+		77451B7722C3E20C00563A07 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77451B7622C3E20C00563A07 /* ContactsViewModel.swift */; };
+		77451B7822C3E20C00563A07 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77451B7622C3E20C00563A07 /* ContactsViewModel.swift */; };
+		77451B7922C3E20C00563A07 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77451B7622C3E20C00563A07 /* ContactsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,8 @@
 		77451B5B22C3DBFF00563A07 /* ContactsDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77451B5F22C3DBFF00563A07 /* ContactsDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDemoAppUITests.swift; sourceTree = "<group>"; };
 		77451B6122C3DBFF00563A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77451B7222C3E1E700563A07 /* ContactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsModel.swift; sourceTree = "<group>"; };
+		77451B7622C3E20C00563A07 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +107,13 @@
 		77451B3B22C3DBFE00563A07 /* ContactsDemoApp */ = {
 			isa = PBXGroup;
 			children = (
-				77451B3C22C3DBFE00563A07 /* AppDelegate.swift */,
-				77451B3E22C3DBFE00563A07 /* ViewController.swift */,
-				77451B4022C3DBFE00563A07 /* Main.storyboard */,
+				77451B7122C3DC4D00563A07 /* AppDelegate */,
+				77451B6D22C3DC1700563A07 /* Model */,
+				77451B7022C3DC3900563A07 /* View */,
+				77451B6F22C3DC3000563A07 /* ViewModel */,
+				77451B6E22C3DC2500563A07 /* Controller */,
+				77451B7A22C3E21D00563A07 /* Extensions */,
 				77451B4622C3DBFF00563A07 /* Assets.xcassets */,
-				77451B4822C3DBFF00563A07 /* LaunchScreen.storyboard */,
 				77451B4B22C3DBFF00563A07 /* Info.plist */,
 				77451B4322C3DBFE00563A07 /* ContactsDemoApp.xcdatamodeld */,
 			);
@@ -126,6 +136,54 @@
 				77451B6122C3DBFF00563A07 /* Info.plist */,
 			);
 			path = ContactsDemoAppUITests;
+			sourceTree = "<group>";
+		};
+		77451B6D22C3DC1700563A07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				77451B7222C3E1E700563A07 /* ContactsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77451B6E22C3DC2500563A07 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77451B3E22C3DBFE00563A07 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77451B6F22C3DC3000563A07 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				77451B7622C3E20C00563A07 /* ContactsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		77451B7022C3DC3900563A07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77451B4022C3DBFE00563A07 /* Main.storyboard */,
+				77451B4822C3DBFF00563A07 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77451B7122C3DC4D00563A07 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				77451B3C22C3DBFE00563A07 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		77451B7A22C3E21D00563A07 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +318,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				77451B3F22C3DBFE00563A07 /* ViewController.swift in Sources */,
+				77451B7722C3E20C00563A07 /* ContactsViewModel.swift in Sources */,
 				77451B4522C3DBFE00563A07 /* ContactsDemoApp.xcdatamodeld in Sources */,
+				77451B7322C3E1E700563A07 /* ContactsModel.swift in Sources */,
 				77451B3D22C3DBFE00563A07 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +329,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77451B7422C3E1E700563A07 /* ContactsModel.swift in Sources */,
+				77451B7822C3E20C00563A07 /* ContactsViewModel.swift in Sources */,
 				77451B5522C3DBFF00563A07 /* ContactsDemoAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +339,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77451B7522C3E1E700563A07 /* ContactsModel.swift in Sources */,
+				77451B7922C3E20C00563A07 /* ContactsViewModel.swift in Sources */,
 				77451B6022C3DBFF00563A07 /* ContactsDemoAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZER7K53MY;
 				INFOPLIST_FILE = ContactsDemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +519,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZER7K53MY;
 				INFOPLIST_FILE = ContactsDemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
